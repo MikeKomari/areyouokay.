@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  /* background-color: red; */
+}
+
+.signupbody {
+  width: 1489px;
+  height: 1170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 185px;
+  /* background-color: blue; */
+}
+
+.kucingsignup {
+  /* margin-right: 98px; */
+  width: 655px;
+  height: 508px;
+}
+
+.signup {
+  /* margin-left: 185px; */
+  width: 639px;
+  height: 1170px;
+  border: 2px solid #212223;
+  background-color: #212223;
+  border-radius: 75px;
+}
+
+.signup img {
+  margin-top: 75px;
+  margin-left: 50px;
+}
+
+.signup h1 {
+  margin: 80px 0px 80px 50px;
+  color: #fff6e0;
+  font-weight: 600;
+}
+.signupform {
+  margin-left: 50px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 522px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.input-box label {
+  color: #fff6e0;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 5px; */
+}
+
+.input-box .input {
+  margin-top: 5px;
+}
+
+.input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.input-box input {
+  width: 522px;
+  height: 57px;
+  border: none;
+  background-color: #fff6e073;
+  border-style: none;
+  outline: none;
+  border-radius: 18px;
+  /* border-color: #fff6e0731; */
+  padding-left: 30px;
+}
+
+.input-box .input::placeholder {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  margin-right: 5px;
+  outline: none;
+  cursor: pointer;
+  /* left: 0;
+  top: 0; */
+}
+
+.wrapperbawah {
+  width: 522px;
+  height: 209px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.containerrememberforgot {
+  width: 522px;
+}
+
+.rememberforgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px 0; */
+  /* width: 100%; */
+  /* background-color: blue; */
+}
+
+.remlabel p {
+  line-height: 1;
+  margin: 0;
+}
+
+.rememberforgot .remlabel {
+  display: flex;
+  align-items: center;
+}
+
+.rememberforgot label {
+  color: #fff6e0;
+}
+
+/* .rememberforgot a {
+  color: #fff6e0;
+} */
+
+.login button {
+  border: none;
+  width: 522px;
+  height: 81px;
+  border-radius: 20px;
+  color: #fff6e0;
+  background-color: #272829;
+  font-size: x-large;
+  margin-top: 50px;
+}
+
+.login-register {
+  margin-top: 20px;
+}
+
+.login-register p {
+  color: #fff6e0;
+}
+
+.login-register a {
+  color: #fff6e0;
+}
+
+/* .section {
+  max-width: 1440px;
+  margin-inline: auto;
+  display: block;
+}
+
+.article-images {
+  display: flex;
+}
+
+.acticle-item {
+  width: 100% !important;
+} */
+
+@media (max-width: 1400px) {
+  .kucingsignup {
+    display: none;
+  }
+
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .article-images {
+    flex-direction: column;
+  }
+}
